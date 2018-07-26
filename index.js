@@ -6,7 +6,7 @@ var http		= require('http');
 var server 		= express();
 var msg;
 
-msg = ""
+msg = {	message: 'Seu pedido está em trânsito!'  };
 
 server.use(bodyParser.urlencoded({ extended: true }));
 server.use(bodyParser.json());
@@ -14,7 +14,7 @@ server.use(bodyParser.json());
 server.get('/', function (req, res) {
 
   //res.send('Hello World!');
-  res.json({msg: "Lucas Toniazzo"})
+  res.json(msg)
 
 });
 
