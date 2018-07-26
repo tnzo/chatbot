@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tnzo/bot.git"
+    "url": "git+https://github.com/tnzo/chatbot.git"
   },
   "keywords": [
     "bot"
@@ -16,9 +16,9 @@
   "author": "Lucas Toniazzo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tnzo/bot/issues"
+    "url": "https://github.com/tnzo/chatbot/issues"
   },
-  "homepage": "https://github.com/tnzo/bot#readme",
+  "homepage": "https://github.com/tnzo/chatbot#readme",
   "dependencies": {
     "express": "^4.16.3"
   }
