@@ -1,7 +1,7 @@
 'use strict';
 
 var express 	= require('express');
-var body_parser = require('body-parser');
+var bodyParser = require('body-parser');
 var http		= require('http');
 var server 		= express();
 var msg;
