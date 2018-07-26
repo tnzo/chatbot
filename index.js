@@ -12,10 +12,8 @@ server.use(bodyParser.urlencoded({ extended: true }));
 server.use(bodyParser.json());
 
 server.get('/', function (req, res) {
-
   //res.send('Hello World!');
   res.json(msg)
-
 });
 
 server.listen((process.env.PORT || 8000), function () {
